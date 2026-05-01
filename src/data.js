@@ -63,13 +63,16 @@ This experience will involve a dedicated team of several local musicians.`,
 
 The journey continues to Celuk Village, the renowned center of Bali's gold and silversmithing, where you can witness the artistic process of making jewelry. We then proceed to the sacred Tirta Empul Temple, a place of profound holiness where you will participate in the traditional Melukat purification ritual. Guided by a temple priest, this sacred blessing is believed to cleanse negative energy and restore spiritual harmony.
 
-After the blessing, enjoy a delicious lunch at a local restaurant (personal account). To conclude your day, we visit the serene Ulun Petanu Waterfall, a hidden gem nestled in a lush canyon, offering a peaceful and refreshing end to your spiritual journey.`,
+After the blessing, enjoy a delicious lunch at a local restaurant (personal account). To conclude your day, we visit the serene Ulun Petanu Waterfall, a hidden gem nestled in a lush canyon. Here, we will explore an ancient 150-meter long cave that dates back to the 11th century, originally used as a traditional irrigation system. It’s a truly unique adventure that combines natural beauty with fascinating history.`,
     gallery: [
       "/balinese1.webp",
       "/balinese2.webp",
       "/balinese3.webp.jpeg",
       "/tirta empul1.webp",
       "/tirta empul2.webp",
+      "/ulun petanu2.webp",
+      "/ulun petanu3.webp",
+      "/ulun petanu4.webp",
     ],
     includes: [
       "Private Transportation",
@@ -90,7 +93,7 @@ After the blessing, enjoy a delicious lunch at a local restaurant (personal acco
       { day: 3, title: "Celuk Village", desc: "Visit the center of gold and silversmithing to see the making process of jewelry." },
       { day: 4, title: "Tirta Empul Temple", desc: "Visit the sacred holy water temple for a traditional Melukat purification ritual and priest blessing." },
       { day: 5, title: "Lunch", desc: "Enjoy a delicious lunch at a local restaurant (personal account)." },
-      { day: 6, title: "Ulun Petanu Waterfall", desc: "Explore the hidden beauty of the Ulun Petanu waterfall in a lush canyon." },
+      { day: 6, title: "Ulun Petanu Waterfall & Cave", desc: "Explore the hidden waterfall and a historic 150-meter cave used for irrigation since the 11th century." },
     ]
   },
   {
