@@ -6,7 +6,7 @@ export const tourPackages = [
     location: "Pacut, Bali",
     duration: "7 - 8 Hours",
     price: "360€",
-    priceNote: "/ person",
+    priceNote: "3/ person",
     image: "/act-pacut5.webp",
     description: `This tour is thoughtfully designed as a private and exclusive experience, created especially for you without sharing the journey with other tourists. It takes place in a peaceful traditional village, far away from the crowds and busy tourist areas, allowing you to truly connect with the authentic rhythm of Balinese life.
 
@@ -73,6 +73,9 @@ After the blessing, enjoy a delicious lunch at a local restaurant (personal acco
       "/ulun petanu2.webp",
       "/ulun petanu3.webp",
       "/ulun petanu4.webp",
+      "/celuk silver1.webp",
+      "/celuk silver2.webp",
+      "/celuk silver3.webp",
     ],
     includes: [
       "Private Transportation",
