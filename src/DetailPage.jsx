@@ -38,9 +38,14 @@ function DetailPage({ tour, onBack }) {
           </button>
           <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-4">
             <div>
-              <div className="flex items-center gap-2 mb-2">
-                <svg className="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" /></svg>
-                <span className="text-secondary-text text-sm">{tour.location}</span>
+              <div className="flex items-center gap-3 mb-2">
+                <div className="flex items-center gap-2">
+                  <svg className="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" /></svg>
+                  <span className="text-secondary-text text-sm">{tour.location}</span>
+                </div>
+                {tour.isExclusive && (
+                  <span className="px-3 py-1 bg-gold text-white text-[10px] font-black rounded-full uppercase tracking-wider shadow-gold-sm">Exclusive Tour</span>
+                )}
               </div>
               <h1 className="font-heading text-3xl sm:text-4xl md:text-5xl font-bold text-dark-text">{tour.name}</h1>
             </div>

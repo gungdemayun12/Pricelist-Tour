@@ -196,9 +196,16 @@ function TourCard({ tour, onSelect }) {
       <div className="relative overflow-hidden h-32 sm:h-52 flex-shrink-0">
         <img src={tour.image} alt={tour.name} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" loading="lazy" />
         <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-        <div className="absolute top-2 left-2 sm:top-3 sm:left-3 px-2 py-1 sm:px-3 sm:py-1.5 bg-white/95 backdrop-blur-sm rounded-full shadow-md flex items-center gap-1 sm:gap-1.5">
-          <svg className="w-2.5 h-2.5 sm:w-3.5 sm:h-3.5 text-gold" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" /></svg>
-          <span className="text-[10px] sm:text-xs font-bold text-dark-text">{tour.location.split(',')[0]}</span>
+        <div className="absolute top-2 left-2 sm:top-3 sm:left-3 flex flex-col gap-1.5">
+          <div className="px-2 py-1 sm:px-3 sm:py-1.5 bg-white/95 backdrop-blur-sm rounded-full shadow-md flex items-center gap-1 sm:gap-1.5 w-fit">
+            <svg className="w-2.5 h-2.5 sm:w-3.5 sm:h-3.5 text-gold" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" /></svg>
+            <span className="text-[10px] sm:text-xs font-bold text-dark-text">{tour.location.split(',')[0]}</span>
+          </div>
+          {tour.isExclusive && (
+            <div className="px-2 py-1 sm:px-3 sm:py-1.5 bg-gold text-white rounded-full shadow-gold-sm flex items-center gap-1 w-fit">
+              <span className="text-[8px] sm:text-[10px] font-black uppercase tracking-tighter">Exclusive Tour</span>
+            </div>
+          )}
         </div>
         <div className="absolute bottom-2 right-2 px-2 py-0.5 sm:px-3 sm:py-1 bg-gold/90 text-white rounded-full text-[8px] sm:text-[10px] font-bold uppercase tracking-wider">
           {tour.category}

@@ -5,8 +5,9 @@ export const tourPackages = [
     name: "Traditional Farming & Playing Balinese Music",
     location: "Pacut, Bali",
     duration: "7 - 8 Hours",
-    price: "360€",
-    priceNote: "3/ person",
+    price: "340€",
+    priceNote: "/ 3 people",
+    isExclusive: true,
     image: "/act-pacut5.webp",
     description: `This tour is thoughtfully designed as a private and exclusive experience, created especially for you without sharing the journey with other tourists. It takes place in a peaceful traditional village, far away from the crowds and busy tourist areas, allowing you to truly connect with the authentic rhythm of Balinese life.
 
@@ -147,7 +148,7 @@ We also visit the ancient village of Tenganan, one of Bali's original pre-Hindu 
     name: "Barong Dance, Bali Bird Park & Butterfly Park",
     location: "Ubud & Gianyar, Bali",
     duration: "7 - 8 Hours",
-    price: "255€",
+    price: "240€",
     priceNote: "/ 3 people",
     image: "/barong1.webp",
     description: `Experience a perfect blend of Balinese culture and vibrant wildlife on this full-day adventure. Your journey begins with the captivating Barong and Keris Dance performance, a traditional storytelling dance that symbolizes the eternal struggle between good and evil, accompanied by the hypnotic rhythms of the gamelan orchestra.
