@@ -57,14 +57,16 @@ This experience will involve a dedicated team of several local musicians.`,
     name: "Balinese Blessing & Balinese Dress Experience",
     location: "Ubud & Gianyar, Bali",
     duration: "7 - 8 Hours",
-    price: "165€",
+    price: "170€",
     priceNote: "/ 3 people",
     image: "/balinese2.webp",
     description: `Experience a deeply spiritual and cultural journey through the heart of Bali. Your adventure begins with a visit to a traditional Balinese home, offering you a rare glimpse into authentic daily life. Immerse yourself in the culture by wearing intricate traditional Balinese dress—a perfect opportunity for stunning, meaningful photographs. While here, you will be treated to the warmth of Balinese hospitality with traditional cakes served alongside local coffee or tea.
 
-The journey continues to Celuk Village, the renowned center of Bali's gold and silversmithing, where you can witness the artistic process of making jewelry. We then proceed to the sacred Tirta Empul Temple, a place of profound holiness where you will participate in the traditional Melukat purification ritual. Guided by a temple priest, this sacred blessing is believed to cleanse negative energy and restore spiritual harmony.
+  The journey continues to Celuk Village, the renowned center of Bali's gold and silversmithing, where you can witness the artistic process of making jewelry. We then proceed to the sacred Tirta Empul Temple, a place of profound holiness where you will participate in the traditional Melukat purification ritual. Guided by a temple priest, this sacred blessing is believed to cleanse negative energy and restore spiritual harmony.
 
-After the blessing, enjoy a delicious lunch at a local restaurant (personal account). To conclude your day, we visit the serene Ulun Petanu Waterfall, a hidden gem nestled in a lush canyon. Here, we will explore an ancient 150-meter long cave that dates back to the 11th century, originally used as a traditional irrigation system. It’s a truly unique adventure that combines natural beauty with fascinating history.`,
+  After the blessing, enjoy a delicious lunch at a local restaurant (personal account). To conclude your day, we visit the serene Ulun Petanu Waterfall, a hidden gem nestled in a lush canyon. Here, we will explore an ancient 150-meter long cave that dates back to the 11th century, originally used as a traditional irrigation system. It’s a truly unique adventure that combines natural beauty with fascinating history.
+
+  Easy acces, everybody possible to visit.`,
     gallery: [
       "/balinese1.webp",
       "/balinese2.webp",
@@ -194,7 +196,7 @@ Easy acces, everybody possible to visit`,
     name: "Traditional Village & Balinese Music Workshop",
     location: "Bangli, Bali",
     duration: "7 - 8 Hours",
-    price: "165€",
+    price: "170€",
     priceNote: "/ 3 people",
     image: "/penglipuran1.webp",
     description: `Discover the hidden gems of Bangli on this immersive cultural journey. We begin our day at Penglipuran Traditional Village, renowned for being one of the cleanest and most well-preserved villages in the world. Walk through its stone-paved paths and admire the unique bamboo architecture that has remained unchanged for generations, offering a glimpse into Bali’s ancestral way of life.
